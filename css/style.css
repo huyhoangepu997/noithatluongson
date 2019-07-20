@@ -18,7 +18,8 @@
 }
 
 html {
-    font-size: 62.5%/* 1rem = 10px */
+    font-size: 62.5%;/* 1rem = 10px */
+    overflow-x: hidden;
 }
 
 body {
@@ -606,4 +607,8 @@ span.text-red {
     z-index: 999 !important;
 }
 
-*/ .slick-next:before
+
+
+.get-mb {
+    margin-bottom: 30px !important;
+}
