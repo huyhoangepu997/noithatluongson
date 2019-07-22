@@ -19,13 +19,8 @@
 
 html {
     font-size: 62.5%;/* 1rem = 10px */
-    overflow-x: hidden;
-}
-
-body {
-    /*font-family: 'HelveticaNeue', sans-serif;*/
-    line-height: 1;
     font-weight: 400;
+    width: 100%;
 }
 
 a {
@@ -51,10 +46,6 @@ button {
 
 
 /*----------Style here-------------*/
-
-.container {
-    max-width: 1220px;
-}
 
 .header__top {
     background: linear-gradient(180deg, rgba(48, 75, 134, 1) 0%, rgba(59, 89, 151, 1) 100%);
@@ -159,13 +150,13 @@ button {
     margin-left: 7rem;
 }
 
-.form__search input {
+.form__search .form-control {
     outline: none;
     border: none;
     box-shadow: none;
     border-radius: 5rem;
-    width: 28rem !important;
-    height: 3rem;
+    height: 4rem;
+    width:28rem;
     font-size: 1.5rem;
     padding: 1rem;
 }
@@ -274,7 +265,7 @@ button {
 .list__products-sub-menu,
 .sub-sub-menu {
     position: absolute;
-    right: -234px;
+    left: 100%;
     top: 0px;
     border: 1px solid #ccc;
     width: 23.4rem;
